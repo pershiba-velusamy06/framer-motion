@@ -22,6 +22,15 @@ const Parent = () => {
       <motion.button  
         onClick={() => navigate('/ScrollAnimations')}
         className='example-button'>ScrollAnimations</motion.button>
+      <motion.button  
+        onClick={() => navigate('/ScrollCarosole')}
+        className='example-button'>ScrollCarosole</motion.button>
+      <motion.button  
+        onClick={() => navigate('/MultiLayerParallax')}
+        className='example-button'>MultiLayerParallax</motion.button>
+      <motion.button  
+        onClick={() => navigate('/CustomKanban')}
+        className='example-button'>CustomKanban</motion.button>
     </div>
   )
 }

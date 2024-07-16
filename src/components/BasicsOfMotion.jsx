@@ -6,17 +6,22 @@ const BasicsOfMotion = () => {
   return (
     <div
       style={{
-        display: "grid",
-        placeContent: "center",
-        height: "100vh",
-        gap: "0.8rem",
+      
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        marginTop:"50px",
+        gap:"10px"
       }}
     >
+      <div>
       <motion.button
         onClick={() => setIsVisible(!isVisible)}
-        layout
+        whileTap={{ scale: 0.95 }}
         className='example-button'>hide/show</motion.button>
-      <AnimatePresence >
+      </div>
+ 
+      <AnimatePresence  initial={false} mode='wait'>
 
         {isVisible && <motion.div
           initial={{
