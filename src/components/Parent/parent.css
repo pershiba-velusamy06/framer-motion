@@ -1,0 +1,10 @@
+.buttonWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-gap: 10px;
+}
