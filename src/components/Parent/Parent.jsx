@@ -55,6 +55,21 @@ const Parent = () => {
       <motion.button  
         onClick={() => navigate('/AuroraHero')}
         className='example-button'>AuroraHero</motion.button>
+      <motion.button  
+        onClick={() => navigate('/TextParallaxContentExample')}
+        className='example-button'>TextParallaxContentExample</motion.button>
+      <motion.button  
+        onClick={() => navigate('/RevealLinks')}
+        className='example-button'>RevealLinks</motion.button>
+      <motion.button  
+        onClick={() => navigate('/TiltCard')}
+        className='example-button'>TiltCard</motion.button>
+      <motion.button  
+        onClick={() => navigate('/SwipeCarousel')}
+        className='example-button'>SwipeCarousel</motion.button>
+      <motion.button  
+        onClick={() => navigate('/ShiftingDropDown')}
+        className='example-button'>ShiftingDropDown</motion.button>
     </div>
   )
 }

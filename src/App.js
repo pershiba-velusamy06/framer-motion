@@ -14,6 +14,11 @@ import CustomAnnimation from './components/CustomAnnimation';
 import BasicUseAnimate from './components/BasicUseAnimate';
 import { ScrollAnimation, UseInViewnimation, UseScrollAdvancedAnimation, UseScrollBasicAnimation, UseScrollWithContainerAnimation } from './components/ScrollAnimation';
 import { AuroraHero } from './components/AuroraHero';
+import TextParallaxContentExample from './components/TextParallaxContentExample';
+import { RevealLinks } from './components/RevealLinks';
+import TiltCardExample from './components/TiltCard';
+import { SwipeCarousel } from './components/SwipeCarousel';
+import { ShiftingDropDown } from './components/ShiftingDropDown';
 
 function App() {
   return (
@@ -37,6 +42,12 @@ function App() {
           <Route path="/UseScrollAdvancedAnimation" element={<UseScrollAdvancedAnimation></UseScrollAdvancedAnimation>} />
           <Route path="/UseScrollWithContainerAnimation" element={<UseScrollWithContainerAnimation></UseScrollWithContainerAnimation>} />
           <Route path="/AuroraHero" element={<AuroraHero></AuroraHero>} />
+          <Route path="/TextParallaxContentExample" element={<TextParallaxContentExample></TextParallaxContentExample>} />
+          <Route path="/RevealLinks" element={<RevealLinks></RevealLinks>} />
+          <Route path="/TiltCard" element={<TiltCardExample></TiltCardExample>} />
+          <Route path="/SwipeCarousel" element={<SwipeCarousel></SwipeCarousel>} />
+          <Route path="/ShiftingDropDown" element={<ShiftingDropDown></ShiftingDropDown>} />
+
          
         </Routes>
       </BrowserRouter>
