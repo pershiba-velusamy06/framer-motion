@@ -10,6 +10,10 @@ import ScrollAnimations from './components/ScrollAnimations';
 import ScrollCarosole from './components/HorizontalscrollCarosel';
 import Home from './components/Home';
 import { CustomKanban } from './components/CustomKanban';
+import CustomAnnimation from './components/CustomAnnimation';
+import BasicUseAnimate from './components/BasicUseAnimate';
+import { ScrollAnimation, UseInViewnimation, UseScrollAdvancedAnimation, UseScrollBasicAnimation, UseScrollWithContainerAnimation } from './components/ScrollAnimation';
+import { AuroraHero } from './components/AuroraHero';
 
 function App() {
   return (
@@ -25,6 +29,14 @@ function App() {
           <Route path="/ScrollCarosole" element={<ScrollCarosole></ScrollCarosole>} />
           <Route path="/MultiLayerParallax" element={<Home></Home>} />
           <Route path="/CustomKanban" element={<CustomKanban></CustomKanban>} />
+          <Route path="/CustomAnnimation" element={<CustomAnnimation></CustomAnnimation>} />
+          <Route path="/BasicUseAnimate" element={<BasicUseAnimate></BasicUseAnimate>} />
+          <Route path="/ScrollAnimation" element={<ScrollAnimation></ScrollAnimation>} />
+          <Route path="/UseInViewnimation" element={<UseInViewnimation></UseInViewnimation>} />
+          <Route path="/UseScrollBasicAnimation" element={<UseScrollBasicAnimation></UseScrollBasicAnimation>} />
+          <Route path="/UseScrollAdvancedAnimation" element={<UseScrollAdvancedAnimation></UseScrollAdvancedAnimation>} />
+          <Route path="/UseScrollWithContainerAnimation" element={<UseScrollWithContainerAnimation></UseScrollWithContainerAnimation>} />
+          <Route path="/AuroraHero" element={<AuroraHero></AuroraHero>} />
          
         </Routes>
       </BrowserRouter>

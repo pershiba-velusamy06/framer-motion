@@ -31,6 +31,30 @@ const Parent = () => {
       <motion.button  
         onClick={() => navigate('/CustomKanban')}
         className='example-button'>CustomKanban</motion.button>
+      <motion.button  
+        onClick={() => navigate('/CustomAnnimation')}
+        className='example-button'>CustomAnnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/BasicUseAnimate')}
+        className='example-button'>BasicUseAnimate</motion.button>
+      <motion.button  
+        onClick={() => navigate('/ScrollAnimation')}
+        className='example-button'>ScrollAnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/UseInViewnimation')}
+        className='example-button'>UseInViewnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/UseScrollBasicAnimation')}
+        className='example-button'>UseScrollBasicAnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/UseScrollAdvancedAnimation')}
+        className='example-button'>UseScrollAdvancedAnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/UseScrollWithContainerAnimation')}
+        className='example-button'>UseScrollWithContainerAnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/AuroraHero')}
+        className='example-button'>AuroraHero</motion.button>
     </div>
   )
 }

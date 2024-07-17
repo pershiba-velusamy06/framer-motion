@@ -16,3 +16,10 @@
   cursor: pointer;
 }
 
+.box {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 150px;
+  background: rgb(86, 1, 245);
+}
