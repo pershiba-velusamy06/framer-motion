@@ -19,6 +19,13 @@ import { RevealLinks } from './components/RevealLinks';
 import TiltCardExample from './components/TiltCard';
 import { SwipeCarousel } from './components/SwipeCarousel';
 import { ShiftingDropDown } from './components/ShiftingDropDown';
+import FlyoutLinkFile from './components/FlyoutLinkFile';
+import { SlideTabsExample } from './components/SlideTabsExample';
+import { RevealBento } from './components/RevealBento';
+import { HoverImageLinks } from './components/HoverImageLinks';
+import { ClipPathLinksPage } from './components/ClipPathLinksPage';
+import ButtonWrapper from './components/ButtonWrapper';
+import { AnimatedHamburgerButtonPage } from './components/AnimatedHamburgerButtonPage';
 
 function App() {
   return (
@@ -47,8 +54,13 @@ function App() {
           <Route path="/TiltCard" element={<TiltCardExample></TiltCardExample>} />
           <Route path="/SwipeCarousel" element={<SwipeCarousel></SwipeCarousel>} />
           <Route path="/ShiftingDropDown" element={<ShiftingDropDown></ShiftingDropDown>} />
-
-         
+          <Route path="/FlyoutLinkFile" element={<FlyoutLinkFile></FlyoutLinkFile>} />
+          <Route path="/SlideTabsExample" element={<SlideTabsExample></SlideTabsExample>} />
+          <Route path="/GridAnimation" element={<RevealBento></RevealBento>} />
+          <Route path="/HoverImageLinks" element={<HoverImageLinks></HoverImageLinks>} />
+          <Route path="/ClipPathLinks" element={<ClipPathLinksPage></ClipPathLinksPage>} />
+          <Route path="/ButtonWrapper" element={<ButtonWrapper></ButtonWrapper>} />
+          <Route path="/AnimatedHamburgerButton" element={<AnimatedHamburgerButtonPage></AnimatedHamburgerButtonPage>} />
         </Routes>
       </BrowserRouter>
 

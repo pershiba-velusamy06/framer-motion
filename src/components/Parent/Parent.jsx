@@ -70,6 +70,27 @@ const Parent = () => {
       <motion.button  
         onClick={() => navigate('/ShiftingDropDown')}
         className='example-button'>ShiftingDropDown</motion.button>
+      <motion.button  
+        onClick={() => navigate('/FlyoutLinkFile')}
+        className='example-button'>FlyoutLinkFile</motion.button>
+      <motion.button  
+        onClick={() => navigate('/SlideTabsExample')}
+        className='example-button'>SlideTabsExample</motion.button>
+      <motion.button  
+        onClick={() => navigate('/GridAnimation')}
+        className='example-button'>Grid Animation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/HoverImageLinks')}
+        className='example-button'>Hover ImageLinks</motion.button>
+      <motion.button  
+        onClick={() => navigate('/ClipPathLinks')}
+        className='example-button'>ClipPath Links Animation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/ButtonWrapper')}
+        className='example-button'>Button Animation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/AnimatedHamburgerButton')}
+        className='example-button'>Animated Hamburger Button</motion.button>
     </div>
   )
 }
