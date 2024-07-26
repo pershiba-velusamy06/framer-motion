@@ -26,6 +26,11 @@ import { HoverImageLinks } from './components/HoverImageLinks';
 import { ClipPathLinksPage } from './components/ClipPathLinksPage';
 import ButtonWrapper from './components/ButtonWrapper';
 import { AnimatedHamburgerButtonPage } from './components/AnimatedHamburgerButtonPage';
+import SquishyCard from './components/SquishyCard';
+import { DragCloseDrawerPage } from './components/DragCloseDrawerPage';
+import FloatingPhoneAnimation from './components/FloatingPhoneAnimation';
+import { DragCards } from './components/DragCards';
+import BubbleTextPage from './components/BubbleTextPage';
 
 function App() {
   return (
@@ -61,6 +66,12 @@ function App() {
           <Route path="/ClipPathLinks" element={<ClipPathLinksPage></ClipPathLinksPage>} />
           <Route path="/ButtonWrapper" element={<ButtonWrapper></ButtonWrapper>} />
           <Route path="/AnimatedHamburgerButton" element={<AnimatedHamburgerButtonPage></AnimatedHamburgerButtonPage>} />
+          <Route path="/SquishyCardButton" element={<SquishyCard></SquishyCard>} />
+          <Route path="/DragCloseDrawer" element={<DragCloseDrawerPage></DragCloseDrawerPage>} />
+          <Route path="/FloatingPhoneAnimation" element={<FloatingPhoneAnimation></FloatingPhoneAnimation>} />
+          <Route path="/DragCards" element={<DragCards></DragCards>} />
+          <Route path="/BubbleText" element={<BubbleTextPage></BubbleTextPage>} />
+        
         </Routes>
       </BrowserRouter>
 

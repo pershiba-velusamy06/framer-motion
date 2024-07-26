@@ -91,6 +91,21 @@ const Parent = () => {
       <motion.button  
         onClick={() => navigate('/AnimatedHamburgerButton')}
         className='example-button'>Animated Hamburger Button</motion.button>
+      <motion.button  
+        onClick={() => navigate('/SquishyCardButton')}
+        className='example-button'>SquishyCard</motion.button>
+      <motion.button  
+        onClick={() => navigate('/DragCloseDrawer')}
+        className='example-button'>DragCloseDrawerPage</motion.button>
+      <motion.button  
+        onClick={() => navigate('/FloatingPhoneAnimation')}
+        className='example-button'>FloatingPhoneAnimation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/DragCards')}
+        className='example-button'>DragCards Animation</motion.button>
+      <motion.button  
+        onClick={() => navigate('/BubbleText')}
+        className='example-button'>BubbleText Animation</motion.button>
     </div>
   )
 }
